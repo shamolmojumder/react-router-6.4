@@ -8,7 +8,7 @@ const Friends = () => {
         <div>
             <h4>I have {friends.length} friends</h4>
             {
-                friends.map(friend=> <Friend friend={friend} key={friend.key}></Friend> )
+                friends.map(friend=> <Friend friend={friend} key={friend.id}></Friend> )
             }
         </div>
     );
